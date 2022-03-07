@@ -12,13 +12,14 @@
 		8C77282D78BB4D05920EB4D5 /* Pods_parstagramTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 06A0BB46FFCDCA19B63A0EA6 /* Pods_parstagramTests.framework */; };
 		9E524C1327D59EFC003F4BD3 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9E524C1227D59EFC003F4BD3 /* AppDelegate.swift */; };
 		9E524C1527D59EFC003F4BD3 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9E524C1427D59EFC003F4BD3 /* SceneDelegate.swift */; };
-		9E524C1727D59EFC003F4BD3 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9E524C1627D59EFC003F4BD3 /* ViewController.swift */; };
 		9E524C1A27D59EFC003F4BD3 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9E524C1827D59EFC003F4BD3 /* Main.storyboard */; };
 		9E524C1C27D59EFD003F4BD3 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9E524C1B27D59EFD003F4BD3 /* Assets.xcassets */; };
 		9E524C1F27D59EFD003F4BD3 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9E524C1D27D59EFD003F4BD3 /* LaunchScreen.storyboard */; };
 		9E524C2A27D59EFD003F4BD3 /* parstagramTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9E524C2927D59EFD003F4BD3 /* parstagramTests.swift */; };
 		9E524C3427D59EFD003F4BD3 /* parstagramUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9E524C3327D59EFD003F4BD3 /* parstagramUITests.swift */; };
 		9E524C3627D59EFD003F4BD3 /* parstagramUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9E524C3527D59EFD003F4BD3 /* parstagramUITestsLaunchTests.swift */; };
+		9EC755EA27D5C25B00D50585 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9EC755E927D5C25B00D50585 /* LoginViewController.swift */; };
+		9EC755EC27D5C27600D50585 /* FeedViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9EC755EB27D5C27600D50585 /* FeedViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -46,7 +47,6 @@
 		9E524C0F27D59EFC003F4BD3 /* parstagram.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = parstagram.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		9E524C1227D59EFC003F4BD3 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		9E524C1427D59EFC003F4BD3 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		9E524C1627D59EFC003F4BD3 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		9E524C1927D59EFC003F4BD3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		9E524C1B27D59EFD003F4BD3 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		9E524C1E27D59EFD003F4BD3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -56,6 +56,8 @@
 		9E524C2F27D59EFD003F4BD3 /* parstagramUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = parstagramUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		9E524C3327D59EFD003F4BD3 /* parstagramUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = parstagramUITests.swift; sourceTree = "<group>"; };
 		9E524C3527D59EFD003F4BD3 /* parstagramUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = parstagramUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		9EC755E927D5C25B00D50585 /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
+		9EC755EB27D5C27600D50585 /* FeedViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FeedViewController.swift; sourceTree = "<group>"; };
 		CEBE1380C20BE8CAA9D3FCCD /* Pods-parstagramTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-parstagramTests.debug.xcconfig"; path = "Target Support Files/Pods-parstagramTests/Pods-parstagramTests.debug.xcconfig"; sourceTree = "<group>"; };
 		DD2E45684D56EBD31BFDDE82 /* Pods-parstagram.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-parstagram.debug.xcconfig"; path = "Target Support Files/Pods-parstagram/Pods-parstagram.debug.xcconfig"; sourceTree = "<group>"; };
 		EC3838C4BA4800F2052E5AC4 /* Pods_parstagram_parstagramUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_parstagram_parstagramUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -101,7 +103,6 @@
 				CEBE1380C20BE8CAA9D3FCCD /* Pods-parstagramTests.debug.xcconfig */,
 				7C1C26E52268601B7F20D663 /* Pods-parstagramTests.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -132,11 +133,12 @@
 			children = (
 				9E524C1227D59EFC003F4BD3 /* AppDelegate.swift */,
 				9E524C1427D59EFC003F4BD3 /* SceneDelegate.swift */,
-				9E524C1627D59EFC003F4BD3 /* ViewController.swift */,
 				9E524C1827D59EFC003F4BD3 /* Main.storyboard */,
 				9E524C1B27D59EFD003F4BD3 /* Assets.xcassets */,
 				9E524C1D27D59EFD003F4BD3 /* LaunchScreen.storyboard */,
 				9E524C2027D59EFD003F4BD3 /* Info.plist */,
+				9EC755E927D5C25B00D50585 /* LoginViewController.swift */,
+				9EC755EB27D5C27600D50585 /* FeedViewController.swift */,
 			);
 			path = parstagram;
 			sourceTree = "<group>";
@@ -407,8 +409,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				9E524C1727D59EFC003F4BD3 /* ViewController.swift in Sources */,
+				9EC755EA27D5C25B00D50585 /* LoginViewController.swift in Sources */,
 				9E524C1327D59EFC003F4BD3 /* AppDelegate.swift in Sources */,
+				9EC755EC27D5C27600D50585 /* FeedViewController.swift in Sources */,
 				9E524C1527D59EFC003F4BD3 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
